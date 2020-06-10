@@ -1,0 +1,10 @@
+body{    
+    background-color:#fcd5cd;
+}
+
+.work-box h1{
+    border-left:6px solid grey;
+    background-color: #fd7c62;
+    color:white;
+    max-width: 200px;
+}
