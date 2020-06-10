@@ -10,4 +10,5 @@ https://nvkex.github.io/imkrypt/
 - [ ] About Section
 - [ ] Add a Contributors' Markdown File
 - [ ] Add algo for encryption
+- [ ] Drag and drop feature
 - [ ] A home page for collection of platform releases
