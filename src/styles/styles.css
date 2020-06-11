@@ -12,8 +12,15 @@ body{
     font-family:'Segoe UI';
 }
 
+.main-container i{
+    letter-spacing: 1px;
+    background-color: #ffe4df;
+    border-radius: 6px;
+    padding:0 4px 0 4px;
+}
+
 .work-box{
-    border:1px solid #fd7c62;
+    border:0px solid #fd7c62;
     border-radius: 4px;
     height:500px;
     width:1000px;
