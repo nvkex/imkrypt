@@ -78,6 +78,7 @@ html,body{
   background-color:#282828 ;
 }
 #ENKRYPT{
+	padding-top: 20px;
 	background-color: #282828;
 	color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
@@ -96,6 +97,7 @@ html,body{
 }
 #DECRYPT
 {
+	padding-top: 20px;
 	background-color: #282828;
 	color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
