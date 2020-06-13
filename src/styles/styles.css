@@ -1,4 +1,6 @@
-body{    
+html,body
+{  
+	height: 100%;  
     background-color:#fcd5cd;
 }
 
@@ -7,4 +9,48 @@ body{
     background-color: #fd7c62;
     color:white;
     max-width: 200px;
+}
+.footer{
+	background:#303036;
+	color: #d3d3d3;
+	height: 300px;
+}
+.page-wrapper{
+	min-height: 88%;
+}
+.footer-bottom{
+	background:#303a67;
+	color: #d3d3d3;
+	height: 38px;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	bottom: 0;
+
+}
+.footer .footer-content .footer-section{
+	flex: 1;
+	border: 1px solid white;
+}
+.footer .footer-content {
+	background:#303036;
+	color: #d3d3d3;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	display: flex;
+}
+.navbar{
+	height: 12%;
+	width: 100%;
+	background: #303036;
+
+}
+#navbut{
+	color: white;
+}
+.tab-content{
+	align-items: center;
+	text-align: center;
 }
