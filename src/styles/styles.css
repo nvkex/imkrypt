@@ -1,56 +1,141 @@
-html,body
-{  
-	height: 100%;  
-    background-color:#fcd5cd;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html,body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #282828;
+	height: 100%;
 }
-
-.work-box h1{
-    border-left:6px solid grey;
-    background-color: #fd7c62;
-    color:white;
-    max-width: 200px;
+#top{
+	background-color: #282828;
+	color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	
+	text-decoration: inherit;
+	font-variant: small-caps;
+	font-size: 1.875em;
+	
+	 margin: 0px;
+	 
 }
+.container{
+	padding-top: 100px;
+}
+.mainpage{
+	min-height: 100%;
+	background-color: #282828;
+}
+#logo{
+	align-self: right;
+}
+#cen{
+	background-color: #282828;
+	color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	text-align: center;
+	text-decoration: inherit;
+	font-variant: small-caps;
+	font-size: 1.875em;
+	 
+	 border-color: green;
+	 margin-left: 25%;
+	 margin-right: 25%;
+	  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {box-shadow: 5px 5px 8px 8px grey;}
+}
+#cont{
+	background-color: #282828;
+	}
 .footer{
-	background:#303036;
-	color: #d3d3d3;
+	background:#202020;
+	color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 	height: 300px;
 }
-.page-wrapper{
-	min-height: 88%;
+.form-popup {
+  display: none;
+  position: absolute;
+  z-index: 9;
 }
-.footer-bottom{
-	background:#303a67;
-	color: #d3d3d3;
-	height: 38px;
-	width: 100%;
-	position: absolute;
-	text-align: center;
-	left: 0;
-	bottom: 0;
-
+#LOGINForm{
+	border: 3px solid green;
+	 
+	left: 203px;
+  top:270px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  max-width: 300px;
+  padding: 10px;
+  background-color:#282828 ;
 }
-.footer .footer-content .footer-section{
-	flex: 1;
-	border: 1px solid white;
+#SINGUPForm{
+	border: 1px solid yellow;
+	 
+	left: 313px;
+  top:270px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  max-width: 300px;
+  padding: 10px;
+  background-color:#282828 ;
 }
-.footer .footer-content {
-	background:#303036;
-	color: #d3d3d3;
-	width: 100%;
-	position: absolute;
-	text-align: center;
-	display: flex;
-}
-.navbar{
-	height: 12%;
-	width: 100%;
-	background: #303036;
-
-}
-#navbut{
+#ENKRYPT{
+	background-color: #282828;
 	color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	text-align: center;
+	text-decoration: inherit;
+	font-variant: small-caps;
+	font-size: 1.675em;
+	 
+	 border-color: green;
+	 margin-left: 25%;
+	 margin-right: 25%;
+	animation: mygreen  5s infinite;
 }
+@keyframes mygreen {
+  50% {box-shadow: 5px 5px 8px 8px green;}
+}
+#DECRYPT
+{
+	background-color: #282828;
+	color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	text-align: center;
+	text-decoration: inherit;
+	font-variant: small-caps;
+	font-size: 1.675em;
+	
+	 border-color: green;
+	 margin-left: 25%;
+	 margin-right: 25%;
+	animation: myred  5s infinite;
+}
+@keyframes myred {
+  50% {box-shadow: 5px 5px 8px 8px red;}
+}
+}
+.form-container {
+	color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  max-width: 300px;
+  padding: 10px;
+  background-color:#282828 ;
+}
+.form-container input[type=text], .form-container input[type=password],.form-container input[type=number]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.form-container input[type=text]:focus, .form-container input[type=password]:focus,.form-container input[type=number]:focus{
+  background-color: #ddd;
+  outline: none;
+  }
 .tab-content{
-	align-items: center;
+	margin-top: -100px;
+	 color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 	text-align: center;
 }
